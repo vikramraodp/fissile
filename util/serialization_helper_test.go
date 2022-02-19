@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/testhelpers"
+	"github.com/vikramraodp/fissile/testhelpers"
 	"github.com/stretchr/testify/assert"
 	yaml "gopkg.in/yaml.v2"
 )

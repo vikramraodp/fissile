@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"code.cloudfoundry.org/fissile/app"
+	"github.com/vikramraodp/fissile/app"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

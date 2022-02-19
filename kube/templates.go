@@ -3,7 +3,7 @@ package kube
 import (
 	"strings"
 
-	"code.cloudfoundry.org/fissile/helm"
+	"github.com/vikramraodp/fissile/helm"
 )
 
 // GetHelmTemplateHelpers returns the helm templates needed throughout the code.

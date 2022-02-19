@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	. "code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/model/releaseresolver"
-	"code.cloudfoundry.org/fissile/model/resolver"
+	. "github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/model/releaseresolver"
+	"github.com/vikramraodp/fissile/model/resolver"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	yaml "gopkg.in/yaml.v2"

@@ -3,7 +3,7 @@ package kube
 import (
 	"testing"
 
-	"code.cloudfoundry.org/fissile/model"
+	"github.com/vikramraodp/fissile/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

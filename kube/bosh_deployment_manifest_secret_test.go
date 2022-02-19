@@ -4,7 +4,7 @@ import (
 	b64 "encoding/base64"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/testhelpers"
+	"github.com/vikramraodp/fissile/testhelpers"
 	"github.com/stretchr/testify/assert"
 )
 

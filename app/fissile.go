@@ -8,16 +8,16 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/fissile/builder"
-	"code.cloudfoundry.org/fissile/compilator"
-	"code.cloudfoundry.org/fissile/docker"
-	"code.cloudfoundry.org/fissile/helm"
-	"code.cloudfoundry.org/fissile/kube"
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/model/loader"
-	"code.cloudfoundry.org/fissile/model/releaseresolver"
-	"code.cloudfoundry.org/fissile/scripts/compilation"
-	"code.cloudfoundry.org/fissile/util"
+	"github.com/vikramraodp/fissile/builder"
+	"github.com/vikramraodp/fissile/compilator"
+	"github.com/vikramraodp/fissile/docker"
+	"github.com/vikramraodp/fissile/helm"
+	"github.com/vikramraodp/fissile/kube"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/model/loader"
+	"github.com/vikramraodp/fissile/model/releaseresolver"
+	"github.com/vikramraodp/fissile/scripts/compilation"
+	"github.com/vikramraodp/fissile/util"
 	"github.com/SUSE/stampy"
 	"github.com/SUSE/termui"
 	"github.com/fatih/color"
@@ -402,8 +402,8 @@ func (f *Fissile) CleanCache() error {
 		}
 	}
 
-	/// 2. Scan local compilation cache, compare to referenced,
-	///    remove anything not found.
+	// / 2. Scan local compilation cache, compare to referenced,
+	// /    remove anything not found.
 
 	f.UI.Printf("Cleaning up %s\n", color.MagentaString(targetPath))
 

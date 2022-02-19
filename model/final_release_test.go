@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/util"
 	"github.com/stretchr/testify/assert"
+	"github.com/vikramraodp/fissile/util"
 )
 
 func TestFinalReleaseValidationOk(t *testing.T) {
@@ -64,7 +64,7 @@ func TestFinalReleaseMissingVersionInMetaData(t *testing.T) {
 
 	assert.NotNil(err)
 	assert.Contains(err.Error(), "version does not exist in release.MF file for release")
-	//assert.Equal("test-final", release.Name)
+	// assert.Equal("test-final", release.Name)
 }
 
 func TestFinalReleasePackagesOk(t *testing.T) {

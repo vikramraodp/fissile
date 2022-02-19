@@ -3,9 +3,9 @@ package kube
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/fissile/helm"
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/util"
+	"github.com/vikramraodp/fissile/helm"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/util"
 )
 
 // NewJob creates a new Job for the given instance group, as well as any objects it depends on

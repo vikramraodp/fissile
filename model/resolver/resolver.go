@@ -3,9 +3,9 @@ package resolver
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/util"
-	"code.cloudfoundry.org/fissile/validation"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/util"
+	"github.com/vikramraodp/fissile/validation"
 	yaml "gopkg.in/yaml.v2"
 )
 

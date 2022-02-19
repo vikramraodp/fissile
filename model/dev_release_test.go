@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/util"
 	"github.com/stretchr/testify/assert"
+	"github.com/vikramraodp/fissile/util"
 )
 
 func TestDevReleaseValidationOk(t *testing.T) {

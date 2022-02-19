@@ -3,7 +3,7 @@ package kube
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/fissile/helm"
+	"github.com/vikramraodp/fissile/helm"
 )
 
 // MakeBoshDeploymentManifestSecret generates a template for a secret that holds the content of a BOSH deployment manifest

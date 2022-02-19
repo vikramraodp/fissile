@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/model"
+	"github.com/vikramraodp/fissile/model"
 	"github.com/SUSE/termui"
 	"github.com/stretchr/testify/assert"
 )

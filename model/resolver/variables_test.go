@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/model/loader"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/model/loader"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

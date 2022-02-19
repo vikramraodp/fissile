@@ -3,9 +3,9 @@ package kube
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/fissile/helm"
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/util"
+	"github.com/vikramraodp/fissile/helm"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/util"
 )
 
 // NewStatefulSet returns a stateful set and a list of services for the given role

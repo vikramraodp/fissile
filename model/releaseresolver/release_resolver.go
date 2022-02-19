@@ -3,7 +3,7 @@ package releaseresolver
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/fissile/model"
+	"github.com/vikramraodp/fissile/model"
 )
 
 // ReleaseResolver state

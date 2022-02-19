@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/helm"
+	"github.com/vikramraodp/fissile/helm"
 	"github.com/stretchr/testify/assert"
 )
 

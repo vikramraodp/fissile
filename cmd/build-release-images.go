@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.cloudfoundry.org/fissile/builder"
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/model/releaseresolver"
+	"github.com/vikramraodp/fissile/builder"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/model/releaseresolver"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/fissile/helm"
-	"code.cloudfoundry.org/fissile/model"
+	"github.com/vikramraodp/fissile/helm"
+	"github.com/vikramraodp/fissile/model"
 )
 
 // RBACRoleKind enumerations are for NewRBACRole

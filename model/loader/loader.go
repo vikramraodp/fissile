@@ -4,9 +4,9 @@ package loader
 // resolvers we want to keep `dep ensure` small
 
 import (
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/model/releaseresolver"
-	"code.cloudfoundry.org/fissile/model/resolver"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/model/releaseresolver"
+	"github.com/vikramraodp/fissile/model/resolver"
 )
 
 // LoadRoleManifest loads a yaml manifest that details how jobs get grouped into roles

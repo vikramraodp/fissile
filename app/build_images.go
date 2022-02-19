@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/fissile/builder"
-	"code.cloudfoundry.org/fissile/docker"
-	"code.cloudfoundry.org/fissile/model"
+	"github.com/vikramraodp/fissile/builder"
+	"github.com/vikramraodp/fissile/docker"
+	"github.com/vikramraodp/fissile/model"
 	"github.com/SUSE/stampy"
 	"github.com/fatih/color"
 )

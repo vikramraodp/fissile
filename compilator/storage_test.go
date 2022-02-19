@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/docker"
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/scripts/compilation"
-	"code.cloudfoundry.org/fissile/util"
+	"github.com/vikramraodp/fissile/docker"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/scripts/compilation"
+	"github.com/vikramraodp/fissile/util"
 	"github.com/gosuri/uiprogress"
 	"github.com/gosuri/uiprogress/util/strutil"
 	"github.com/graymeta/stow"
@@ -89,13 +89,13 @@ func TestStorePackageLocallyOK(t *testing.T) {
 	exists, err := p.Exists(pack)
 	assert.NoError(err)
 
-	//Assert
+	// Assert
 	assert.True(exists)
 	assert.NoError(err)
 }
 
 func TestStorePackageExists(t *testing.T) {
-	//Arrange
+	// Arrange
 	assert := assert.New(t)
 
 	compilationWorkDir, err := util.TempDir("", "fissile-tests")
@@ -139,7 +139,7 @@ func TestStorePackageExists(t *testing.T) {
 	release, err := model.NewDevRelease(releasePath, "", "", releasePathBoshCache)
 	assert.NoError(err)
 
-	//Act
+	// Act
 	err = c.compilePackageInDocker(release.Packages[0])
 
 	existsFalse, err := p.Exists(release.Packages[0])
@@ -150,7 +150,7 @@ func TestStorePackageExists(t *testing.T) {
 	existsTrue, err := p.Exists(release.Packages[0])
 	assert.NoError(err)
 
-	//Assert
+	// Assert
 	assert.False(existsFalse)
 	assert.True(existsTrue)
 }

@@ -14,8 +14,8 @@ import (
 	"sync"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/model/loader"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/model/loader"
 	"github.com/SUSE/termui"
 	"github.com/stretchr/testify/assert"
 )

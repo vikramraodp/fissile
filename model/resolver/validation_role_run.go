@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/validation"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/validation"
 )
 
 // validateRoleRun tests whether required fields in the RoleRun are

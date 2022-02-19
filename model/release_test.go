@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/testhelpers"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/assert"
+	"github.com/vikramraodp/fissile/testhelpers"
 )
 
 type ReleaseInfo struct {

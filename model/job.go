@@ -11,7 +11,7 @@ import (
 	"sort"
 
 	"code.cloudfoundry.org/archiver/extractor"
-	"code.cloudfoundry.org/fissile/util"
+	"github.com/vikramraodp/fissile/util"
 	yaml "gopkg.in/yaml.v2"
 )
 

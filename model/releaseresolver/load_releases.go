@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/util"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/util"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/mholt/archiver"
 	"github.com/vbauerster/mpb"
@@ -16,7 +16,7 @@ import (
 	"golang.org/x/crypto/ssh/terminal"
 )
 
-//LoadReleasesFromDisk loads information about BOSH releases
+// LoadReleasesFromDisk loads information about BOSH releases
 func LoadReleasesFromDisk(options model.ReleaseOptions) ([]*model.Release, error) {
 	releases := make([]*model.Release, len(options.ReleasePaths))
 	for idx, releasePath := range options.ReleasePaths {

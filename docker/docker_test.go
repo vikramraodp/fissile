@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"code.cloudfoundry.org/fissile/util"
+	"github.com/vikramraodp/fissile/util"
 	dockerclient "github.com/fsouza/go-dockerclient"
 	"github.com/golang/mock/gomock"
 	"github.com/pborman/uuid"

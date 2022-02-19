@@ -1,3 +1,4 @@
+//go:build !linux
 // +build !linux
 
 package compilator
@@ -5,7 +6,7 @@ package compilator
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/fissile/model"
+	"github.com/vikramraodp/fissile/model"
 )
 
 func (c *Compilator) compilePackageInMountNS(pkg *model.Package) (err error) {

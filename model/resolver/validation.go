@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/fissile/model"
-	"code.cloudfoundry.org/fissile/validation"
+	"github.com/vikramraodp/fissile/model"
+	"github.com/vikramraodp/fissile/validation"
 )
 
 // Validate implements several checks for the instance group and its job references. It's run after the

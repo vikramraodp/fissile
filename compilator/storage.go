@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/fissile/model"
+	"github.com/vikramraodp/fissile/model"
 	"github.com/graymeta/stow"
 	_ "github.com/graymeta/stow/azure"  // support azure storage
 	_ "github.com/graymeta/stow/google" // support google storage

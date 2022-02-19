@@ -3,7 +3,7 @@ package util_test
 import (
 	"testing"
 
-	"code.cloudfoundry.org/fissile/util"
+	"github.com/vikramraodp/fissile/util"
 	"github.com/stretchr/testify/assert"
 )
 

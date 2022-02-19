@@ -4,8 +4,8 @@ import (
 	"os"
 	"runtime"
 
-	"code.cloudfoundry.org/fissile/app"
-	"code.cloudfoundry.org/fissile/cmd"
+	"github.com/vikramraodp/fissile/app"
+	"github.com/vikramraodp/fissile/cmd"
 	"github.com/SUSE/termui"
 	"github.com/SUSE/termui/sigint"
 	"github.com/fatih/color"

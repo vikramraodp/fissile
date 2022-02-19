@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/fissile/util"
-	"code.cloudfoundry.org/fissile/validation"
+	"github.com/vikramraodp/fissile/util"
+	"github.com/vikramraodp/fissile/validation"
 )
 
 // InstanceGroups is an array of Role*
